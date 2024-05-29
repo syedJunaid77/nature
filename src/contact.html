@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="input.css">
+
+    <!-- npx tailwindcss-i ./src/input.css -o ./src/style.css --watch -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>CONTACT</title>
+</head>
+
+<body>
+    <section class="text-gray-600 body-font bg-hero-pattern6 md:h-screen mx-auto">
+        <nav class=" text-white  px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800 ">
+            <div class="container flex flex-wrap  p-8 justify-between items-center mx-auto">
+                <a href="/" class="flex items-center">
+                    <img src="img/logo-white-1-60x60.png" alt="">
+                </a>
+
+                <div class="flex items-center">
+                    <button id="menu-toggle" type="button"
+                        class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-full bg-green-800 focus:outline-none focus:ring-2 md:hidden">
+                        <span class="sr-only">Open main menu</span>
+                        <!-- Hamburger icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#fff" class="bi bi-list"
+                            viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="w-full md:block md:w-auto hidden" id="mobile-menu">
+                    <ul
+                        class="flex flex-col mt-4 md:flex-row space-x-1 text-xl md:space-x-8 md:mt-0 md:font-medium cursor-pointer">
+                        <li>
+                            <a href="index.html" class=" hover:text-gray-200">HOME</a>
+                        </li>
+                        <li>
+                            <a href="about.html" class=" hover:text-gray-200">ABOUT</a>
+                        </li>
+                        <li>
+                            <a href="services.html" class=" hover:text-gray-200">SERVICE</a>
+                        </li>
+                        <li>
+                            <a href="contact.html" class=" hover:text-gray-200">CONTACT</a>
+                        </li>
+                        <button
+                            class="inline-flex items-center text-white border-0 py-1 px-3 focus:outline-none hover:bg-green-800 rounded text-2xl mt-4 md:mt-0">202-555-7890
+                        </button>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+        <section class="text-gray-600 body-font">
+            <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+
+                <div class="text-center lg:w-2/3 w-full">
+                    <h1 class="title-font sm:text-8xl md:text-7xl py-8 mb-4 md:font-normal text-white hiddin-text">
+                        contact us</h1>
+
+                </div>
+            </div>
+        </section>
+    </section>
+    <section class="">
+
+        <h1 class="text-6xl my-24 mx-80 font-normal title-font text-gray-900 mb-12 text-center">We respond to
+            all
+            messages
+            within 24 hours.</h1>
+
+    </section>
+    <section class="text-gray-600 body-font relative">
+        <div class="container px-5 py-8 mx-auto">
+
+            <div class="lg:w-1/2 md:w-2/3 mx-auto">
+                <div class="flex flex-wrap -m-2">
+                    <div class="p-2 w-full">
+                        <div class="relative">
+                            <!-- <label for="name" class="leading-7 text-sm text-gray-600">Name</label> -->
+                            <input type="text" id="name" name="name" placeholder="Your Name"
+                                class="w-full bg-gray-100 bg-opacity-50 rounded border-2 border-gray-300 focus:border-black focus:bg-white focus:ring-2 focus:ring-indigo-200 text-xl outline-none text-black py-4 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                        </div>
+                    </div>
+                    <div class="p-2 w-full">
+                        <div class="relative">
+                            <!-- <label for="email" class="leading-7 text-sm text-gray-600">Email</label> -->
+                            <input type="email" id="email" name="email" placeholder="Your E-mail"
+                                class="w-full bg-gray-100 bg-opacity-50 rounded border-2 border-gray-300 focus:border-black focus:bg-white focus:ring-2 focus:ring-indigo-200 text-xl outline-none  text-black py-4 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                        </div>
+                    </div>
+                    <div class="p-2 w-full">
+                        <div class="relative">
+                            <!-- <label for="email" class="leading-7 text-sm text-gray-600">Email</label> -->
+                            <input type="number" id="email" name="email" placeholder="Your Phone"
+                                class="w-full bg-gray-100 bg-opacity-50 rounded border-2 border-gray-300 focus:border-black focus:bg-white focus:ring-2 focus:ring-indigo-200 text-xl outline-none py-4 px-3 leading-8 transition-colors duration-200 ease-in-out text-black">
+                        </div>
+                    </div>
+                    <div class="p-2 w-full">
+                        <div class="relative">
+                            <!-- <label for="message" class="leading-7 text-sm text-gray-600">Message</label> -->
+                            <textarea id="message" name="message" placeholder="Message"
+                                class="w-full bg-gray-100 bg-opacity-50 rounded border-2 border-gray-300 focus:border-black focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-xl outline-none text-black py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                        </div>
+                    </div>
+                    <div class="p-2">
+                        <button
+                            class="flex mx-auto text-white bg-green-800 border-2 py-4 px-12 focus:outline-none hover:bg-green-900 rounded-xl text-lg">Send
+                            Now</button>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+    <!-- <div class="flex flex-col text-center w-full mb-20">
+        <h1 class="sm:text-6xl text-2xl font-medium title-font mb-4 text-gray-900">Work with me online or in-person</h1>
+    </div> -->
+    <section class="text-gray-600 body-font bg-green-50">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="text-center mb-20">
+                <h1 class="sm:text-6xl text-2xl font-medium text-center title-font text-gray-900 mb-4">Work with me
+                    online or in-person</h1>
+            </div>
+            <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+                <div class="p-2 sm:w-1/2 w-full">
+                    <p>E-MAIL</p>
+                    <div class=" flex p-4 pl-0">
+                        <!-- <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="3" class="text-green-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                            <path d="M22 4L12 14.01l-3-3"></path>
+                        </svg> -->
+                        <span class="title-font text-2xl font-semibold">contact@example.com</span>
+                    </div>
+                </div>
+                <div class="p-4 sm:w-1/2 w-full">
+
+                    <div class=" rounded flex p-2 h-full mt-4">
+                        <!-- <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="3" class="text-green-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                            <path d="M22 4L12 14.01l-3-3"></path>
+                        </svg> -->
+                        <span class="title-font text-2xl font-medium">You can use this final section to write some
+                            directions to your physical location, or any other
+                            useful information.</span>
+
+                    </div>
+                </div>
+                <div class="p-2 sm:w-1/2 w-full">
+                    <p>PHONE</p>
+                    <div class=" flex p-4 pl-0 ">
+                        <!-- <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="3" class="text-green-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                            <path d="M22 4L12 14.01l-3-3"></path>
+                        </svg> -->
+                        <span class="title-font text-2xl font-semibold">202-555-7890</span>
+                    </div>
+                </div>
+                <div class="p-4 sm:w-1/2 w-full">
+                    <div class=" rounded flex p-2 h-full mt-4">
+
+                        <span class="title-font text-2xl font-medium">If you’re using this template to build a website,
+                            and have
+                            any questions at all, I’d love to help!</span>
+                    </div>
+                </div>
+                <div class="p-2 sm:w-1/2 w-full">
+                    <p>LOCATION</p>
+                    <div class="flex p-4 pl-0">
+                        <!-- <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="3" class="text-green-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                            <path d="M22 4L12 14.01l-3-3"></path>
+                        </svg> -->
+                        <span class="title-font text-2xl font-semibold">123 Fifth Avenue, NY 10160, New York, USA</span>
+                    </div>
+                    <div class="flex flex-row space-x-4 mt-10">
+                        <img class="h-14 w-14 " src="img/logo1.png" alt="">
+                        <img class="h-14 w-14 " src="img/logo2.png" alt="">
+                        <img class="h-16 w-16" src="img/logo3.png" alt="">
+                    </div>
+
+
+                </div>
+                <div class="p-4 sm:w-1/2 w-full">
+                    <div class=" rounded flex flex-col pt-4 h-full ">
+
+                        <span class="title-font text-2xl font-medium mt-5">Just search for WP Maker to find our YouTube
+                            channel. Leave
+                            a comment on any video – I always reply.</span>
+                        <span class="title-font text-2xl font-medium mt-5">Thank you so much for watching our
+                            tutorials!</span>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <footer class="text-white  body-font">
+        <div class="container px-5 py-8 mx-auto flex text-center justify-between sm:flex-row flex-col">
+            <div class="flex  text-center justify-center  sm:flex-row flex-col">
+                <p class="text-lg text-black sm:ml-4 sm:pl-4 sm:py-2 sm:mt-0 mt-2">HOME
+                </p>
+                <p class="text-lg text-black sm:ml-4 sm:pl-4 sm:py-2 sm:mt-0 mt-2">ABOUT
+                </p>
+                <p class="text-lg text-black sm:ml-4 sm:pl-4 sm:py-2 sm:mt-0 mt-2">CONTACT
+                </p>
+                <p class="text-lg text-black sm:ml-4 sm:pl-4 sm:py-2 sm:mt-0 mt-2">SERVICES
+                </p>
+            </div>
+            <div class="flex justify-center items-center invert">
+                <img src="img/logo-white-1-60x60.png" alt="">
+            </div>
+            <div class="text-lg text-black sm:ml-4 sm:pl-4  sm:py-2 sm:mt-0 mt-2 ">
+                <p>
+                    © 2024 Hope Starter Design
+
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuToggle.addEventListener('click', function () {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+
+</html>

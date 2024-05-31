@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="input.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- npx tailwindcss-i ./src/input.css -o ./src/style.css --watch -->
 
@@ -65,7 +66,8 @@
             <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col text-7xl">
 
                 <div class="text-center lg:w-2/3 w-full">
-                    <h1 class="title-font sm:text-7xl md:text-7xl py-8 mb-4 md:font-medium text-white hiddin-text">
+                    <h1 class="title-font sm:text-7xl md:text-7xl py-8 mb-4 md:font-medium text-white hiddin-text"
+                        data-aos="zoom-in-down">
                         our services</h1>
 
                 </div>
@@ -77,12 +79,13 @@
             <div class="lg:w-4/5 mx-auto flex flex-wrap">
 
                 <img alt="ecommerce" class="lg:w-96 w-full lg:h-[500px] h-64 object-cover object-center rounded"
-                    src="img/2-home.jpg">
+                    data-aos="zoom-in-down" src="img/2-home.jpg">
 
                 <div
                     class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
                     <h1>From $199</h1>
-                    <h1 class="title-font sm:text-4xl text-xl mb-4 font-medium text-gray-900">Web Design
+                    <h1 class="title-font sm:text-4xl text-xl mb-4 font-medium text-gray-900" data-aos="zoom-in-down">
+                        Web Design
 
                         <br class="hidden lg:inline-block">
                     </h1>
@@ -113,12 +116,13 @@
             <div class="lg:w-4/5 mx-auto flex flex-wrap">
 
                 <img alt="ecommerce" class="lg:w-96 w-full lg:h-[500px] h-64 object-cover object-center rounded"
-                    src="img/3-home.jpg">
+                    data-aos="zoom-in-down" src="img/3-home.jpg">
 
                 <div
                     class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
                     <h1>From $199</h1>
-                    <h1 class="title-font sm:text-4xl text-xl mb-4 font-medium text-gray-900">Web Design
+                    <h1 class="title-font sm:text-4xl text-xl mb-4 font-medium text-gray-900" data-aos="zoom-in-down">
+                        Web Design
 
                         <br class="hidden lg:inline-block">
                     </h1>
@@ -149,12 +153,13 @@
             <div class="lg:w-4/5 mx-auto flex flex-wrap">
 
                 <img alt="ecommerce" class="lg:w-96 w-full lg:h-[500px] h-64 object-cover object-center rounded"
-                    src="img/4-home.jpg">
+                    data-aos="zoom-in-down" src="img/4-home.jpg">
 
                 <div
                     class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
                     <h1>From $199</h1>
-                    <h1 class="title-font sm:text-4xl text-xl mb-4 font-medium text-gray-900">Web Design
+                    <h1 class="title-font sm:text-4xl text-xl mb-4 font-medium text-gray-900" data-aos="zoom-in-down">
+                        Web Design
 
                         <br class="hidden lg:inline-block">
                     </h1>
@@ -185,8 +190,10 @@
         <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col text-center">
 
             <div class="text-center lg:w-1/2 w-full py-24 md:text-5xl mt-12">
-                <h1 class="title-font sm:text-7xl text-3xl leading-6 mb-4 font-semibold text-white">Work with me</h1>
-                <p class="text-white text-2xl text-center my-4">Send me a message to discuss your needs. I always reply
+                <h1 class="title-font sm:text-7xl text-3xl leading-6 mb-4 font-semibold text-white"
+                    data-aos="zoom-in-down" data-aos="zoom-in-down">Work with me</h1>
+                <p class="text-white text-2xl text-center my-4" data-aos="zoom-in-down">Send me a message to discuss
+                    your needs. I always reply
                     within 24 hours.
                     <!-- <p class="text-white text-2xl text-center">Maybe they
                     should contact
@@ -226,6 +233,10 @@
             </div>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script>
         const menuToggle = document.getElementById('menu-toggle');
         const mobileMenu = document.getElementById('mobile-menu');
